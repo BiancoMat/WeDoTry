@@ -1,12 +1,8 @@
-import React from 'react';
-
-function App() {
+export default function App() {
   return (
     <div>
-      <h1>WeDo è vivo.</h1>
-      <p>Login e accesso funzionano. Da qui si entra nel cuore della piattaforma.</p>
+      <h1>Benvenuto su WeDo</h1>
+      <p>Questa è una versione demo con login finto e struttura base.</p>
     </div>
   );
 }
-
-export default App;
