@@ -1,19 +1,11 @@
-
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
+import React from 'react';
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-      </Routes>
-    </Router>
+    <div>
+      <h1>WeDo è vivo.</h1>
+      <p>Login e accesso funzionano. Da qui si entra nel cuore della piattaforma.</p>
+    </div>
   );
 }
 

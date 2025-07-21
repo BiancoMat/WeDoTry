@@ -1,16 +1,14 @@
 {
-  "name": "wedo-vercel-app",
+  "name": "wedo-react-app",
   "version": "1.0.0",
-  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build"
-  },
-  "dependencies": {
-    "firebase": "^10.7.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.22.0",
-    "react-scripts": "^5.0.1"
   }
 }
